@@ -33,7 +33,7 @@ class Party extends Application {
             // else update the info
             this.log('Hook "createActor" called');
             this.log(actor);
-            this.update();
+            this.update(actor);
         });
 
         Hooks.on('updateActor', (actor) => {
