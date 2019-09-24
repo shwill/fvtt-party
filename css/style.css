@@ -36,4 +36,9 @@
     font-weight: regular;
     background-color: #eee;
   }
- 
+  
+  button#party-tracker {
+    flex: 0; 
+    height: 50px;
+  }
+
